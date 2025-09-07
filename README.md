@@ -31,20 +31,20 @@ The goal of this project is to provide:
 ## 📸 Project Screenshots
 
 ###Login
-![Login](screenshots/login.jpg)
+![Login](screenshots/login.JPG)
 
 ###Rooms Page
 
-![AvailableRoom](screenshots/room.jpg)
+![AvailableRoom](screenshots/room.JPG)
 
 ### Dashboard Page
-![Dashboard](screenshots/dashboard.jpg)
+![Dashboard](screenshots/dashboard.JPG)
 
 ### Booking Page
 ![Booking](screenshots/booking.jpg)
 
 ### Customer List
-![Customer](screenshots/customer.jpg)
+![Customer](screenshots/customer.JPG)
 
 ---
 
