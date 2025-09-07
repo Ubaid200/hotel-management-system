@@ -53,3 +53,16 @@ The goal of this project is to provide:
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Ubaid200/hotel-management-system.git
+
+2. Open project in your IDE (STS, IntelliJ, or Eclipse).
+
+3. Update application.properties with your MySQL DB credentials.
+
+4. Run the project:
+
+mvn spring-boot:run
+
+
+5. Open in browser:
+
+http://localhost:8080
