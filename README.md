@@ -31,7 +31,7 @@ The goal of this project is to provide:
 ## 📸 Project Screenshots
 
 ##Login
-![Login](screenshots/login.jpg0
+![Login](screenshots/login.jpg)
 
 ##Rooms
 
