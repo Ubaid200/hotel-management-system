@@ -30,21 +30,21 @@ The goal of this project is to provide:
 
 ## 📸 Project Screenshots
 
-##Login
+###Login
 ![Login](screenshots/login.jpg)
 
-##Rooms
+###Rooms Page
 
 ![AvailableRoom](screenshots/room.jpg)
 
-### Dashboard
+### Dashboard Page
 ![Dashboard](screenshots/dashboard.jpg)
 
 ### Booking Page
 ![Booking](screenshots/booking.jpg)
 
 ### Customer List
-![Customers](screenshots/customer.jpg)
+![Customer](screenshots/customer.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ The goal of this project is to provide:
 
 4. Run the project:
 
-mvn spring-boot:run
+   mvn spring-boot:run
 
 
 5. Open in browser:
