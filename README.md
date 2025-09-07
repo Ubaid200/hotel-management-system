@@ -57,12 +57,12 @@ The goal of this project is to provide:
 2. Open project in your IDE (STS, IntelliJ, or Eclipse).
 
 3. Update application.properties with your MySQL DB credentials.
+4.  Open in browser:
 
-4. Run the project:
+  http://localhost:8080
 
+5. Run the project:
+```bash
    mvn spring-boot:run
 
 
-5. Open in browser:
-
-http://localhost:8080
