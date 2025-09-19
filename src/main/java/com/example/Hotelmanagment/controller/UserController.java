@@ -1,8 +1,9 @@
 package com.example.Hotelmanagment.controller;
 
 import com.example.Hotelmanagment.entity.User;
-import com.example.Hotelmanagment.service.UserService;
+import com.example.Hotelmanagment.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,25 +12,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class UserController {
-    @Autowired
-    private UserService userService;
 
-    @GetMapping("/")
+
+
+    @GetMapping("/login")
     public String getlogin(Model model){
-
         model.addAttribute("user",new User());
-
         return "login";
         }
-    @PostMapping("/loguser")
-    public String loguser(@ModelAttribute("user") User user,Model model){
-      User valider = userService.loginnow(user.getEmail(),user.getPassword());
-      if (valider != null){
-          model.addAttribute("success", valider.getName());
-          return "admin/dashboard";
-      }else {
-          model.addAttribute("error", "Invalid Email and PAssword");
-          return "login";
-      }
-    }
+
 }
