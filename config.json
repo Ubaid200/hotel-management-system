@@ -62,8 +62,8 @@
         {
             "algo": rx/0,
             "coin": null,
-            "url": "stratum+tcp://randomxmonero.auto.nicehash.com:9200",
-            "user": "NHbKv1aqEdQbZJj8pc9BAr3gDL5XJw4bYAVx",
+            "url": "eu1.solopool.org:8010",
+            "user": "47DWKsmZdq9U9LdUkKJJF4GAkX6ytkex5cJtdmuC7HUt5PJTo8mYUjW4MKYmVXozBKMsi1wncnZ3hE45r6X74yNh9XhNxSD",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
