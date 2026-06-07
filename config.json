@@ -30,14 +30,40 @@
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
-        "priority": null,
+        "priority": 1,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
+        "argon2": [0, 2],
+        "cn": [
+            [1, 0],
+            [1, 2]
+        ],
+        "cn-heavy": [
+            [1, 0]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 2]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 2]
+        ],
+        "cn/upx2": [
+            [2, 0],
+            [2, 2]
+        ],
+        "ghostrider": [
+            [8, 0],
+            [8, 2]
+        ],
+        "rx": [0, 2],
+        "rx/wow": [0, 2],
+        "cn-lite/0": false,
         "cn/0": false,
-        "cn-lite/0": false
+        "rx/arq": "rx/wow"
     },
     "opencl": {
         "enabled": false,
@@ -45,24 +71,24 @@
         "loader": null,
         "platform": "AMD",
         "adl": true,
-        "cn/0": false,
-        "cn-lite/0": false
+        "cn-lite/0": false,
+        "cn/0": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
         "nvml": true,
-        "cn/0": false,
-        "cn-lite/0": false
+        "cn-lite/0": false,
+        "cn/0": false
     },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
     "log-file": null,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "pools": [
         {
-            "algo": rx/0,
+            "algo": "rx/0",
             "coin": null,
-            "url": "eu1.solopool.org:8010",
+            "url": "fenixpool.com:9111",
             "user": "47DWKsmZdq9U9LdUkKJJF4GAkX6ytkex5cJtdmuC7HUt5PJTo8mYUjW4MKYmVXozBKMsi1wncnZ3hE45r6X74yNh9XhNxSD",
             "pass": "x",
             "rig-id": null,
@@ -70,6 +96,7 @@
             "keepalive": false,
             "enabled": true,
             "tls": false,
+            "sni": false,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
@@ -77,11 +104,11 @@
             "submit-to-origin": false
         }
     ],
+    "retries": 5,
+    "retry-pause": 5,
     "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
-    "retries": 5,
-    "retry-pause": 5,
     "syslog": false,
     "tls": {
         "enabled": false,
