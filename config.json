@@ -88,7 +88,7 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "fenixpool.com:9111",
+            "url": "stratum+tcp://randomxmonero.auto.nicehash.com:9200",
             "user": "NHbKv1aqEdQbZJj8pc9BAr3gDL5XJw4bYAVx",
             "pass": "x",
             "rig-id": null,
