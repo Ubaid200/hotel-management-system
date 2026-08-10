@@ -128,4 +128,4 @@ The goal of this project is to provide:
 * Passwords are encrypted using **BCrypt**.
 * Spring Security automatically handles login and logout.
 * Ensure **unique emails** in the database to avoid login issues.
-* Drop the `user` table if duplicates exist and restart the app to recreate the admin user automatically.
+* Drop the `user` table if duplicates exist and restart the app to recreate the admin user automatically.https://www.effectivecpmnetwork.com/wr4gcvwe?key=a25a5d72e03750b29578263f43d23f88
